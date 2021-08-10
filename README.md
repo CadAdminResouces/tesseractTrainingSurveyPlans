@@ -37,9 +37,9 @@ As suggested by tesseract. Additionally, we found that after cropping out the te
 
 | Models	|	Borders Used in training	|
 |-------------------------|---------------------|
-| jess, jess2	|	No borders	|
-| jess_border, jess_border 2	|	Images have a border of 3 and an additional white_border of 10	|
-| jess_whiteborder, jess_whiteborder2, jess_whiteborder3	|	Images have a border of 0 and a white_border of 10	|
+| QLD_B_D, QLD_B_D2	|	No borders	|
+| QLD_B_D_border, QLD_B_D_border 2	|	Images have a border of 3 and an additional white_border of 10	|
+| QLD_B_D_whiteborder, QLD_B_D_whiteborder2, QLD_B_D_whiteborder3	|	Images have a border of 0 and a white_border of 10	|
 
 #The validation sets we created are listed below:
 | Validation Set	|	Borders used in validation set	|
