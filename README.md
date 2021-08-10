@@ -6,7 +6,7 @@ The files listed are models that will help tesseract ocr detect bearing and dist
 They were trained using QLD survey plans using tesseract's tesstrain files.
 https://github.com/tesseract-ocr/tesstrain
 
-The files were validated against some plans and the percent coincidence indicates how close the predicted text was to the ground truth text.
+The files were validated against two different validation sets as shown in the validation type column; one with borders and one without borders to generate a percent coincidence. The percent coincidence indicates how close the predicted text was to the ground truth text.
 
 
 | Model                   | Percent Coincidence |Validation Type |
@@ -33,7 +33,7 @@ The files were validated against some plans and the percent coincidence indicate
 | eng+QLD_B_D_whiteborder3-2 | 93.72619048         |ValidationSetWithBorders |
 |                         |                     | |
 
-As suggested by tesseract. Additionaly we found that after getting cropping out the text from the image adding a small border around the text improves tesserect's performance.
+As suggested by tesseract. Additionally, we found that after cropping out the text from the image, adding a small border around the text improved tesseract's performance. The below table describes the border settings we used to crop these images out. Border refers to how much additional pixels of the image we cropped, and white border refers to the number of pixels of whitespace we added around the images.
 
 | Models	|	Borders Used in training	|
 |-------------------------|---------------------|
@@ -41,7 +41,7 @@ As suggested by tesseract. Additionaly we found that after getting cropping out 
 | jess_border, jess_border 2	|	Images have a border of 3 and an additional white_border of 10	|
 | jess_whiteborder, jess_whiteborder2, jess_whiteborder3	|	Images have a border of 0 and a white_border of 10	|
 
-#The Validation Sets I created are listed below:
+#The validation sets we created are listed below:
 | Validation Set	|	Borders used in validation set	|
 |-------------------------|---------------------|
 | ValidationSet	|	No borders	|
