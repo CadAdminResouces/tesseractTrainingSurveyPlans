@@ -35,13 +35,13 @@ The files were validated against two different validation sets as shown in the v
 
 As suggested by tesseract. Additionally, we found that after cropping out the text from the image, adding a small border around the text improved tesseract's performance. The below table describes the border settings we used to crop these images out. Border refers to how much additional pixels of the image we cropped, and white border refers to the number of pixels of whitespace we added around the images.
 
-| Models	|	Borders Used in training	|
+| Models	|	Borders used in training	|
 |-------------------------|---------------------|
 | QLD_B_D, QLD_B_D2	|	No borders	|
 | QLD_B_D_border, QLD_B_D_border 2	|	Images have a border of 3 and an additional white_border of 10	|
 | QLD_B_D_whiteborder, QLD_B_D_whiteborder2, QLD_B_D_whiteborder3	|	Images have a border of 0 and a white_border of 10	|
 
-#The validation sets we created are listed below:
+The validation sets we created are listed below:
 | Validation Set	|	Borders used in validation set	|
 |-------------------------|---------------------|
 | ValidationSet	|	No borders	|
