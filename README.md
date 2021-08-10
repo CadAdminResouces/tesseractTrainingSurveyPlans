@@ -3,7 +3,7 @@
 
 The files listed are models that will help tesseract ocr detect bearing and distances found on modern survey plans.
 
-They were trainined using QLD survey plans using tesseract's tesstrain files.
+They were trained using QLD survey plans using tesseract's tesstrain files.
 https://github.com/tesseract-ocr/tesstrain
 
 The files were validated against some plans and the percent coincidence indicates how close the predicted text was to the ground truth text.
